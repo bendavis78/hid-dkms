@@ -1,0 +1,15 @@
+Source: hid-dkms
+Section: misc
+Priority: optional
+Maintainer: Henrik Rydberg <rydberg@euromail.se>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+Homepage: https://launchpad.net/~rydberg
+
+Package: hid-dkms
+Architecture: all
+Depends: dkms (>= 1.95), bash (>> 1.99)
+Description: Supplementary hid support
+ This driver supplements the apple function key mapping with useful
+ defaults for the Expose (FN+F3), Dashboard (FN+F4) and Insert
+ (FN+Enter) keys.

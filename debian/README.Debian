@@ -1,0 +1,11 @@
+hid DKMS module for Debian
+
+This package adds supplementary media key mappings.
+
+* Install the debian package (uses dkms)
+
+* Reboot
+
+Enjoy!
+
+Henrik Rydberg <rydberg@euromail.se>

@@ -1,0 +1,12 @@
+hid-dkms (0.10.2) unstable; urgency=low
+
+  * Map FN+ENTER to INSERT
+  * Automatically update the ramdisk
+
+ -- Henrik Rydberg <rydberg@euromail.se>  Wed, 29 Oct 2008 20:33:08 +0100
+
+hid-dkms (0.10.1) unstable; urgency=low
+
+  * Map Expose/Dashboard to CYCLEWINDOWS/CALC function keys
+
+ -- Henrik Rydberg <rydberg@euromail.se>  Wed, 29 Oct 2008 20:33:08 +0100
