@@ -1,3 +1,9 @@
+hid-dkms (0.11.1) unstable; urgency=low
+
+  * Upgrade to intrepid 2.6.27-8.17
+
+ -- Henrik Rydberg <rydberg@euromail.se>  Sun, 16 Nov 2008 02:35:19 +0100
+
 hid-dkms (0.11.0) unstable; urgency=low
 
   * Add autoinstaller directive
