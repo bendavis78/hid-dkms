@@ -1,12 +1,10 @@
 NAME	= hid
-VERSION	= 0.11.1
+VERSION	= 1.0.0
 SRC	= usr/src
 DKMSSRC	= $(SRC)/dkms_source_tree
 
 TARBALL	= $(NAME)-$(VERSION).dkms.tar.gz
 PATCH	= ./scripts/patch-name-version.sh $(NAME) $(VERSION)
-
-KERNSRC	= $(HOME)/code/kernel/intrepid
 
 all:	$(SRC)/$(TARBALL)
 
@@ -24,6 +22,7 @@ install: $(SRC)/$(TARBALL)
 	(cd $(SRC); install -m 644 $(NAME)-$(VERSION).dkms.tar.gz "$(DESTDIR)/$(SRC)")
 
 bump:
+	uname -r > $(DKMSSRC)/KERNEL_SOURCE_VERSION
 	$(PATCH) debian/postinst
 	$(PATCH) debian/postrm
 	$(PATCH) debian/prerm
@@ -31,8 +30,3 @@ bump:
 	$(PATCH) debian/postinst
 	$(PATCH) $(DKMSSRC)/dkms.conf
 	chmod 0755 debian/rules
-
-fetch:
-	cp $(KERNSRC)/drivers/hid/*.c $(DKMSSRC)
-	(cd $(DKMSSRC); cat patches/*.patch | patch -p3)
-	uname -r > $(DKMSSRC)/KERNEL_SOURCE_VERSION

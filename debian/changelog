@@ -1,3 +1,9 @@
+hid-dkms (1.0.0) maverick; urgency=low
+
+  * Upgrade to maverick 2.6.36-19-generic
+
+ -- Henrik Rydberg <rydberg@euromail.se>  Mon, 30 Aug 2010 15:17:21 +0200
+
 hid-dkms (0.11.1) unstable; urgency=low
 
   * Upgrade to intrepid 2.6.27-8.17
