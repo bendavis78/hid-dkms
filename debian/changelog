@@ -1,3 +1,9 @@
+hid-dkms (1.0.1) maverick; urgency=low
+
+  * Conflict with multitouch-kernel-source
+
+ -- Chase Douglas <chase.douglas@ubuntu.com>  Mon, 30 Aug 2010 15:39:54 -0400
+
 hid-dkms (1.0.0) maverick; urgency=low
 
   * Upgrade to maverick 2.6.36-19-generic

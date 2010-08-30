@@ -9,6 +9,7 @@ Homepage: http://bitmath.org/code/hid-dkms/
 Package: hid-dkms
 Architecture: all
 Depends: dkms (>= 1.95), bash (>> 1.99)
+Conflicts: multitouch-kernel-source
 Description: Supplementary hid support
  This driver supplements the apple function key mapping with useful
  defaults for the Expose (FN+F3), Dashboard (FN+F4) and Insert
