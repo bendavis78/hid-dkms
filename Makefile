@@ -1,5 +1,5 @@
 NAME	= hid
-VERSION	= 1.0.2
+VERSION	= 1.0.3
 SRC	= usr/src
 DKMSSRC	= $(SRC)/dkms_source_tree
 

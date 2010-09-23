@@ -1,3 +1,9 @@
+hid-dkms (1.0.3) maverick; urgency=low
+
+  * Route the Joojoo tablet to the special driver
+
+ -- Henrik Rydberg <rydberg@euromail.se>  Wed, 22 Sep 2010 13:15:18 +0200
+
 hid-dkms (1.0.2) maverick; urgency=low
 
   * Package numbering fix
