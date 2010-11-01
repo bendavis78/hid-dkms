@@ -1,3 +1,9 @@
+hid-dkms (1.0.4) maverick; urgency=low
+
+  * Fixes for Asus T91MT and Acer Aspire 1420P
+
+ -- Henrik Rydberg <rydberg@bitmath.org>  Mon, 01 Nov 2010 20:47:53 +0100
+
 hid-dkms (1.0.3) maverick; urgency=low
 
   * Route the Joojoo tablet to the special driver
