@@ -1,3 +1,9 @@
+hid-dkms (1.0.5) maverick; urgency=low
+
+  * Add support for Wetab
+
+ -- Henrik Rydberg <rydberg@bitmath.org>  Thu, 04 Nov 2010 10:33:51 +0100
+
 hid-dkms (1.0.4) maverick; urgency=low
 
   * Fixes for Asus T91MT and Acer Aspire 1420P
