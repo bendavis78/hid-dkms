@@ -1,3 +1,9 @@
+hid-dkms (1.0.6) maverick; urgency=low
+
+  * Add support for MacBookAir 3
+
+ -- Henrik Rydberg <rydberg@bitmath.org>  Thu, 04 Nov 2010 14:34:04 +0100
+
 hid-dkms (1.0.5) maverick; urgency=low
 
   * Add support for Wetab
