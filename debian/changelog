@@ -1,3 +1,9 @@
+hid-dkms (1.1.0) natty; urgency=low
+
+  * Upgrade to natty (2.6.37-9)
+
+ -- Henrik Rydberg <rydberg@bitmath.org>  Thu, 14 Dec 2010 14:34:04 +0100
+
 hid-dkms (1.0.6) maverick; urgency=low
 
   * Add support for MacBookAir 3
