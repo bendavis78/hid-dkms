@@ -1,8 +1,9 @@
 hid-dkms (1.1.1) natty; urgency=low
 
   * Upgrade to natty (2.6.38-5)
+  * Add support for MPB8,2
 
- -- Henrik Rydberg <rydberg@bitmath.org>  Mon, 07 Mar 2011 17:51:21 +0100
+ -- Henrik Rydberg <rydberg@bitmath.org>  Wed, 09 Mar 2011 22:54:11 +0100
 
 hid-dkms (1.1.0) natty; urgency=low
 
