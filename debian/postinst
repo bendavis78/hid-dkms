@@ -3,7 +3,7 @@
 set -e
 
 NAME=hid
-VERSION=1.1.0
+VERSION=1.1.1
 
 case "$1" in
     configure)
