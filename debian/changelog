@@ -1,3 +1,9 @@
+hid-dkms (1.1.2) natty; urgency=low
+
+  * Release version 1.1.2
+
+ -- Henrik Rydberg <rydberg@bitmath.org>  Wed, 06 Apr 2011 22:12:25 +0200
+
 hid-dkms (1.1.1) natty; urgency=low
 
   * Upgrade to natty (2.6.38-5)
