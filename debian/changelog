@@ -2,8 +2,9 @@ hid-dkms (1.1.1) natty; urgency=low
 
   * Upgrade to natty (2.6.38-5)
   * Add support for MPB8,2
+  * Upgrade to Ubuntu-2.6.38-8.40
 
- -- Henrik Rydberg <rydberg@bitmath.org>  Wed, 09 Mar 2011 22:54:11 +0100
+ -- Henrik Rydberg <rydberg@bitmath.org>  Wed, 06 Apr 2011 22:08:58 +0200
 
 hid-dkms (1.1.0) natty; urgency=low
 
